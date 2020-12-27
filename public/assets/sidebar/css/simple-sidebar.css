@@ -1,0 +1,141 @@
+#leftmenu h2 {
+
+  font-size: 20px;
+  padding: 6px 0 4px 6px;
+  margin: 0px 0 4px;
+  width: 100%;
+}
+#sidebar-wrapper {
+  background-color: #fff;
+}
+#leftmenu a {
+  display: block;
+  padding: 2px 1px 2px 6px;
+  font-size: 15px;
+  line-height: 25px;
+  border-bottom: 1px #ccc solid
+}
+
+#leftmenu a.active,
+#leftmenu a:hover {
+  background-color: #f1f1f1;
+  color: #09a
+}
+
+#leftmenu, #right-sidebar{
+  position: relative;
+  height: 100%;
+  padding: 10px;
+  padding: 0;
+  z-index: 2
+}
+
+#leftmenuinner, #right-sidebar{
+  position: sticky;
+  top: 0px;
+  padding-bottom: 0;
+  overflow: hidden;
+  height: 100%;
+  background-color: transparent;
+  z-index: inherit;
+}
+
+
+.left {
+  background-color: #24252f;
+  color: #eee;
+}
+
+#leftmenu .w3-closebtn {
+  position: absolute;
+  border-bottom: none;
+  right: 16px;
+  top: 0
+}
+.w3-closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media (min-width: 993px)
+{
+  #leftmenu {
+    display: block!important;
+    padding: 2px 13px 2px 12px;
+}
+  div#page-content-wrapper {
+    display: none;
+  }
+#sidebar-wrapper {
+  background-color: #fff;
+}
+.w3-hide-large {
+  display: none!important;
+}
+}
+
+ @media (max-width:992px) {
+  #sidebar-wrapper {
+    background-color: #fff;
+  }
+   div#page-content-wrapper {
+    display: none;
+  }
+  #leftmenu {
+      display: none;
+      position: fixed;
+      top: 50px;
+      z-index: 5;
+      height: 100%;
+      width: 280px;
+      padding-top: 0px;
+  }
+  #leftmenu.toggled {
+    display: block;
+    position: fixed;
+    top: 50px;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+}
+
+
+  #leftmenu h2 {
+      font-size: 22px;
+      width: 100%
+  }
+  #leftmenu a {
+      padding: 3px 2px 3px 24px;
+      font-size: 17px
+  }
+  #leftmenuinner {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      height: 100%;
+      position: relative;
+      width: auto;
+      padding-top: 30px;
+      background-color: #f1f1f1;
+      overflow-y: scroll;
+      border-bottom: none;
+  }
+ 
+
+}
+/* @media (min-width:993px) {
+  #leftmenu {
+      display: block!important;
+      padding: 2px 13px 2px 12px;
+  }
+} */
+
+

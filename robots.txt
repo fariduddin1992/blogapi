@@ -1,0 +1,7 @@
+
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /http:/shareyourcodes.com/admin/login/
+Disallow: /https://shareyourcodes.com/dash
+Sitemap: https://shareyourcodes.com/sitemap.xml

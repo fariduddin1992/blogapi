@@ -1,0 +1,7 @@
+
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /login/
+Disallow: /finderBlog/dash
+Sitemap: https://shareyourcodes.com/sitemap.xml

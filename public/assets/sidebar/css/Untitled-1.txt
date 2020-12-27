@@ -1,0 +1,147 @@
+@extends('master')
+@section('content')
+<style>
+ 
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-light border-right" id="sidebar-wrapper">
+          <div class="w3-row w3-light-grey" id="belowtopnav" style="height: auto !important;">
+            <div class="w3-col l3" id="leftmenu">
+                    <div class="w3-light-grey w3-animate-left" id="leftmenuinner">
+        
+                    <a href="javascript:void(0)" onclick="close_menu()" class="w3-closebtn w3-hide-large w3-large" style="padding:3px 12px;">×</a>
+                    <h2 class="left"><span class="left_h2">এইচটিএমএল</span> টিউটোরিয়াল</h2>
+                    <a target="_top" href="index.php" class="active">এইচটিএমএল হোম পেজ</a>
+                    <a target="_top" href="html-tutorial-intro.php">এইচটিএমএল পরিচিতি এবং  গঠন</a>
+                    <a target="_top" href="html-code-editor.php"> এইচটিএমএল কোড এটিটর</a>
+                    <a target="_top" href="html-basic.php">এইচটিএমএলের মৌলিক ধারণা</a>
+                    <a target="_top" href="html-element.php">  এইচটিএমএল এলিমেন্ট</a><a target="_top" href="html-empty-element.php">  এইচটিএমএল emty এলিমেন্ট</a>
+                    <a target="_top" href="html-attribute.php"> এইচটিএমএল এট্রিবিউট</a>
+                    <a target="_top" href="html-class.php">এইচটিএমএল  class এট্রিবিউট</a>
+                    <a target="_top" href="html-style-attribute.php"> এইচটিএমএল  style এট্রিবিউট</a>
+                    <a target="_top" href="html-comment.php"> এইচটিএমএল কমেন্ট</a>
+                    <a target="_top" href="html-heading.php"> এইচটিএমএল হেডিং</a>
+                    <a target="_top" href="html-paragraph.php">এইচটিএমএল  প্যারাগ্রাফ</a>
+        
+                    <a target="_top" href="html-text-formatting.php">এইচটিএমএল টেক্সট ফরম্যাট</a>
+                    <a target="_top" href="html-text-quotation.php">এইচটিএমএল টেক্সট কোটেশন</a>
+                    <a target="_top" href="html-computer-code-element.php"> এইচটিএমএল কম্পিউটারকোড</a>
+        
+                    <a target="_top" href="html-table.php"> এইচটিএমএল টেবিল</a>
+                    <a target="_top" href="html-list-tag.php">এইচটিএমএল  লিস্ট</a>
+                    <a target="_top" href="html-color.php">এইচটিএমএল  কালার</a>
+                    <a target="_top" href="html-css.php">এইচটিএমএল সিএসএস</a>
+                    <a target="_top" href="html-link.php">এইচটিএমএল লিংক</a>
+                    <a target="_top" href="html-image-tag.php">এইচটিএমএল ইমেজ</a>
+                    <a target="_top" href="html-block-inline-element.php">এইচটিএমএল  ব্লক-ইনলাইন এলিমেন্ট</a>
+        
+                    <a target="_top" href="html-head-element.php">এইচটিএমএল হেড</a>
+                    <a target="_top" href="html-layout.php">এইচটিএমএল লেআউট</a>
+        
+                    <a target="_top" href="html-iframe.php">এইচটিএমএল আইফ্রেম</a>
+                    <a target="_top" href="html-javascript.php">এইচটিএমএল জাভাস্ক্রিপ্ট</a>
+                    <a target="_top" href="html-responsive-design.php">এইচটিএমএল রেস্পন্সিভ</a>
+                    <a target="_top" href="html-entity.php">এইচটিএমএল এনটিটি</a>
+                    <a target="_top" href="html-character-set.php">এইচটিএমএল অক্ষরসেট</a>
+                    <a target="_top" href="html-symbol.php">এইচটিএমএল সিম্বল</a>
+        
+        
+                    <a target="_top" href="html-url-encode.php">এইচটিএমএল URL এনকোড</a>
+                    <a target="_top" href="html-versus-xhtml.php">এইচটিএমএল-XHTML </a>
+                    <a target="_top" href="px-to-em-conversion.php"> px - em কনভার্শন</a>
+                    <br>
+                    <h2 class="left"><span class="left_h2">এইচটিএমএল</span> ফর্ম</h2>
+                    <a target="_top" href="html-form.php">  এইচটিএমএল ফর্ম</a>
+                    <a target="_top" href="html-form-element.php"> এইচটিএমএল ফর্ম এলিমেন্ট</a>
+                    <a target="_top" href="form-input-type-value.php">এইচটিএমএল ইনপুট টাইপ</a>
+                    <a target="_top" href="html5-form-input-type-value.php">এইচটিএমএল(৫) ইনপুট টাইপ</a>
+                    <a target="_top" href="html-form-input-attribute.php"> এইচটিএমএল ইনপুট এট্রিবিউট</a>
+                    <br>
+                    <h2 class="left"><span class="left_h2">এইচটিএমএল৫</span></h2>
+                    <a target="_top" href="html5-introduction.php">এইচটিএমএল৫ পরিচিতি</a>
+                    <a target="_top" href="html5-browser-support.php"> ব্রাউজার সাপোর্ট</a>
+                    <a target="_top" href="html5-new-element.php">এইচটিএমএল৫ এলিমেন্ট</a>
+                    <a target="_top" href="html5-semantic-element.php">এইচটিএমএল৫ সিম্যান্টিক এলিমেন্ট</a>
+                    <a target="_top" href="html5-migration.php"> এইচটিএমএল৫ মাইগ্রেশন</a>
+                    <a target="_top" href="html5-coding-style.php">এইচটিএমএল৫ স্টাইল গাইড</a>
+                    <br>
+                    <!--<h2 class="left"><span class="left_h2" >এইচটিএমএল</span> গ্রাফিক্স</h2>-->
+                    <!--<a target="_top" href="html5_canvas.php" >  ক্যানভাস-Canvas</a>-->
+                    <!--<a target="_top" href="html5_svg.php" >  এসভিজি-SVG</a>-->
+                    <!--<br>-->
+                    <h2 class="left"><span class="left_h2">এইচটিএমএল</span> মিডিয়া</h2>
+                    <a target="_top" href="html-multi-media.php">  মিডিয়া-Media</a>
+                    <a target="_top" href="html5-video-tag.php">  ভিডিও-Video</a>
+                    <a target="_top" href="html5-audio-tag.php"> অডিও-Audio </a>
+                    <a target="_top" href="html-plugin.php">  প্লাগ-ইন-PlugIn</a>
+                    <a target="_top" href="html-youtube-video.php">  ইউটিউব-Youtube</a>
+                    <br>
+                    <h2 class="left"><span class="left_h2">এইচটিএমএল </span> এপিআই </h2>
+                    <a target="_top" href="html5-geolocation.php">  জিওলোকেশন-Geolocation</a>
+                    <a target="_top" href="html5-drag-and-drop.php">  ড্রাগ/ড্রপ-Drag/Drop </a>
+                    <a target="_top" href="html5-local-storage.php">  লোকাল স্টোরেজ-LocalStorage</a>
+                    <a target="_top" href="html5-application-cache.php">  অ্যাপ ক্যাশ-AppCache</a>
+                    <a target="_top" href="html5-web-worker.php">  ওয়েব ওয়ার্কার-WebWorker</a>
+                    <a target="_top" href="html5-server-sent-event.php">  এসএসই-SSE</a>
+                    <br>
+                    <h2 class="left"><span class="left_h2">এইচটিএমএল</span> রেফারেন্স</h2>
+                    <a target="_top" href="html-reference.php">  রেফারেন্স- reference</a>
+                    <!--
+                    <a target="_top" href="../html-tag/ref-keyboard-shortcut.php" > কিবোর্ড শর্টকাট-KeyboardShortcut</a>
+                    <a target="_top" href="../html-tag/ref-html-doctype-validation.php" >   ভার্সন-Version</a>
+                      
+                    <a target="_top" href="../html-tag/ref-standardattribute.php" >  এট্রিবিউট-Attribute</a>
+                    <a target="_top" href="../html-tag/ref-eventattribute.php" >  ইভেন্ট-Event</a>
+                    <a target="_top" href="../html-tag/ref-color-name.php" >  কালার-Color</a>
+                    <a target="_top" href="../html-tag/ref-canvas.php" >  ক্যানভাস-Canvas</a>
+                    <a target="_top" href="../html-tag/ref-audio-video-dom.php" >  অডিও/ভিডিও-Audio/Video</a>
+                    <a target="_top" href="../html-tag/ref-http-message.php" >এইচটিটিপি ম্যাসেজ-HTTPMessege</a>
+                    <a target="_top" href="../html-tag/ref-http-get-post.php" >এইচটিটিপি মেথড-HTTPMethod</a>
+                      <a target="_top" href="../html-tag/ref-pxtoemconversion.php" > PX থেকে  EM  কনভার্টার</a>
+                    <a target="_top" href="../html-tag/ref-character-set.php" >  অক্ষর সেট-CharacterSet</a>
+                    <a target="_top" href="../html-tag/ref-url-encode.php" >  URL এনকোড-Encode </a>
+                    <a target="_top" href="../html-tag/ref-language-code.php" >  ল্যাঙ্গুয়েজ কোড-LanguageCode</a>
+                    -->
+                    <br><br>
+                </div>
+            </div>
+          
+            </div>
+           
+        </div>
+                </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-6">ss</div>
+            <div class="col-md-6">ss</div>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>
+
+
+<!-- /#wrapper -->
+
+<!-- Bootstrap core JavaScript -->
+{{-- <script src="{{url('public/assets/sidebar/vendor/jquery/jquery.min.js')}}"></script> --}}
+{{-- <script src="{{url('public/assets/sidebar/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script> --}}
+
+
+
+<!-- Menu Toggle Script -->
+
+
+</body>
+
+</html>
+@endsection
